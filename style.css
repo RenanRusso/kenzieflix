@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: white;
+
+
+}
+
+
+.header-top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+}
+
+#kenzieflix {
+    width: 300px;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    font-size: 2.4em;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 200px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+}
+
+p {
+    width: 200px;
+    text-align: center;
+    color: grey;
+    font-family: ;
+
+}
+
+.main-ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+li:hover img {
+    border: 2px solid white;
+}
+
+li:hover p {
+    color: white;
+}
+
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.button-bottom {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+}
+
+.button-bottom:hover {
+    background-color: white;
+    color: black;
+}
